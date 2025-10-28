@@ -1,50 +1,25 @@
-# Welcome to your Expo app 👋
+**Proyecto Final: Detector de Placas con IA (YOLOv8 + Flask + Expo)**
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Enlace de la app (Expo Go):**
+https://expo.dev/@mateovelazco/placas_project
 
-## Get started
+**Backend en AWS EC2:**
+http://18.224.107.220:8000
 
-1. Install dependencies
+**Instrucciones:**
+1. Instala **Expo Go** (App Store / Google Play)
+2. Abre el enlace o escanea el QR
+3. Toca "Tomar Foto"
+4. Apunta a una placa → ¡se detecta y lee en voz alta!
 
-   ```bash
-   npm install
-   ```
+**Tecnologías:**
+- AWS EC2 (t3.micro)
+- Python, Flask, Ultralytics YOLOv8
+- PyTorch CPU
+- React Native + Expo
+- Text-to-Speech (español)
 
-2. Start the app
+**Tiempo de respuesta:** ~150ms por foto  
+**Modelo:** `best.pt` (entrenado en placas)
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+¡Gracias por la oportunidad de aprender!
